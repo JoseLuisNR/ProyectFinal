@@ -6,5 +6,9 @@ namespace ModelAut
 {
     class Autores
     {
+        public int IdAutor { get; set; }
+        public string NombreAut { get; set; }
+        public string ApellidoAut { get; set; }
+        
     }
 }
